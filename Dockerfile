@@ -38,3 +38,5 @@ RUN mkdir -p /root/.1cv8/1C/1cv8/conf/
 ENV PATH /opt/1C/1CE/components/1c-enterprise-ring-0.11.8+4-x86_64:$PATH
 
 ENV RING_OPTS="-Duser.country=ru -Duser.language=RU"
+
+USER usr1cv8 
