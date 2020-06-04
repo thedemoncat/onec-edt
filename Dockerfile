@@ -17,7 +17,7 @@ RUN apk --no-cache add bash curl grep \
   && for file in *.tar.gz; do tar -zxf "$file"; done \
   && rm -rf *.tar.gz
 
-FROM demoncat/onec-full:${ONEC_VERSION} as base
+FROM demoncat/onec-full as base
 
 LABEL maintainer="Ruslan Zhdanov <nl.ruslan@yandex.ru> (@TheDemonCat)"
 
