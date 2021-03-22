@@ -1,0 +1,3 @@
+[submodule "onec-client"]
+	path = onec-client
+	url = git@github.com:TheDemonCat/onec-client.git
